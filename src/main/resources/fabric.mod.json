@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "minihud-debug-addon",
+  "version": "${version}",
+  "name": "MiniHUD Bridge Listener",
+  "description": "Client-only addon that subscribes to the MiniHUD Debug Bridge plugin and feeds debug data into MiniHUD overlays.",
+  "authors": [
+    "lyntermint"
+  ],
+  "license": "LGPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lyntermint.minihuddebug.MinihudDebugAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*",
+    "minihud": ">=0.34.7",
+    "malilib": ">=0.23.5"
+  }
+}

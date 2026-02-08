@@ -1,0 +1,19 @@
+# Build outputs
+/build/
+/.gradle/
+/out/
+/run/
+/logs/
+
+# IDE
+/.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Local mod jars
+/libs/*.jar
+
+# Jars produced by builds
+/*.jar
